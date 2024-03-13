@@ -1,4 +1,4 @@
-module github.com/ameshkov/udptlspipe
+module github.com/leninalive/udptlspipe
 
 go 1.21.6
 

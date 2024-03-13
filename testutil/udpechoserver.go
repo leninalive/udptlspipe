@@ -6,7 +6,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ameshkov/udptlspipe/internal/udp"
+	"github.com/leninalive/udptlspipe/udp"
 )
 
 // UDPEchoServer is a test UDP pipe that accepts incoming connections and saves

@@ -14,8 +14,8 @@ import (
 	tls "github.com/refraction-networking/utls"
 
 	"github.com/AdguardTeam/golibs/log"
-	"github.com/ameshkov/udptlspipe/internal/pipe"
-	"github.com/ameshkov/udptlspipe/internal/testutil"
+	"github.com/leninalive/udptlspipe/pipe"
+	"github.com/leninalive/udptlspipe/testutil"
 	"github.com/stretchr/testify/require"
 )
 

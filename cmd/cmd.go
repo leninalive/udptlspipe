@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/AdguardTeam/golibs/log"
-	"github.com/ameshkov/udptlspipe/internal/pipe"
-	"github.com/ameshkov/udptlspipe/internal/version"
 	goFlags "github.com/jessevdk/go-flags"
+	"github.com/leninalive/udptlspipe/pipe"
+	"github.com/leninalive/udptlspipe/version"
 	tls "github.com/refraction-networking/utls"
 )
 

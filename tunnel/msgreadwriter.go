@@ -10,7 +10,7 @@ import (
 )
 
 // MaxMessageLength is the maximum length that is safe to use.
-// TODO(ameshkov): Make it configurable.
+// TODO(leninalive): Make it configurable.
 const MaxMessageLength = 1320
 
 // MinMessageLength is the minimum message size. If the message is smaller, it

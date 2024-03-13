@@ -3,7 +3,7 @@ BASE_BUILDDIR=build
 BUILDNAME=$(GOOS)-$(GOARCH)
 BUILDDIR=$(BASE_BUILDDIR)/$(BUILDNAME)
 VERSION?=v0.0-dev
-VERSIONPKG=github.com/ameshkov/udptlspipe/internal/version
+VERSIONPKG=github.com/leninalive/udptlspipe/version
 
 ifeq ($(GOOS),windows)
   ext=.exe

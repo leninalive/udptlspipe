@@ -119,7 +119,7 @@ func (l *Listener) readLoop() {
 				return
 			}
 
-			// TODO(ameshkov): Handle errors better here.
+			// TODO(leninalive): Handle errors better here.
 
 			continue
 		}
@@ -263,21 +263,21 @@ func (c *udpConn) RemoteAddr() (addr net.Addr) {
 
 // SetDeadline implements the net.Conn interface for *udpConn.
 func (c *udpConn) SetDeadline(_ time.Time) (err error) {
-	// TODO(ameshkov): Implement it.
+	// TODO(leninalive): Implement it.
 
 	return nil
 }
 
 // SetReadDeadline implements the net.Conn interface for *udpConn.
 func (c *udpConn) SetReadDeadline(_ time.Time) (err error) {
-	// TODO(ameshkov): Implement it.
+	// TODO(leninalive): Implement it.
 
 	return nil
 }
 
 // SetWriteDeadline implements the net.Conn interface for *udpConn.
 func (c *udpConn) SetWriteDeadline(_ time.Time) (err error) {
-	// TODO(ameshkov): Implement it.
+	// TODO(leninalive): Implement it.
 
 	return nil
 }

@@ -19,9 +19,9 @@ import (
 	"time"
 
 	"github.com/AdguardTeam/golibs/log"
-	"github.com/ameshkov/udptlspipe/internal/tunnel"
-	"github.com/ameshkov/udptlspipe/internal/udp"
 	"github.com/gobwas/ws"
+	"github.com/leninalive/udptlspipe/tunnel"
+	"github.com/leninalive/udptlspipe/udp"
 	tls "github.com/refraction-networking/utls"
 	"golang.org/x/net/proxy"
 )

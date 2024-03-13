@@ -1,5 +1,5 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/ameshkov/udptlspipe)](https://goreportcard.com/report/ameshkov/udptlspipe)
-[![Latest release](https://img.shields.io/github/release/ameshkov/udptlspipe/all.svg)](https://github.com/ameshkov/udptlspipe/releases)
+[![Go Report Card](https://goreportcard.com/badge/github.com/leninalive/udptlspipe)](https://goreportcard.com/report/leninalive/udptlspipe)
+[![Latest release](https://img.shields.io/github/release/leninalive/udptlspipe/all.svg)](https://github.com/leninalive/udptlspipe/releases)
 
 # udptlspipe
 
@@ -51,16 +51,16 @@ are:
 
 * Using homebrew:
     ```shell
-    brew install ameshkov/tap/udptlspipe
+    brew install leninalive/tap/udptlspipe
     ```
 * From source:
     ```shell
-    go install github.com/ameshkov/udptlspipe@latest
+    go install github.com/leninalive/udptlspipe@latest
     ```
 * You can get a binary from the [releases page][releases].
 * You can also use a [Docker image](#docker) instead.
 
-[releases]: https://github.com/ameshkov/udptlspipe/releases
+[releases]: https://github.com/leninalive/udptlspipe/releases
 
 <a id="howtouse"></a>
 
@@ -191,7 +191,7 @@ expose on the host's port `443` (tcp):
 
 ```shell
 docker run -d --name udptlspipe -p 443:8443/tcp \
-  ghcr.io/ameshkov/udptlspipe \
+  ghcr.io/leninalive/udptlspipe \
   --server \
   -d 2.3.4.5:8123 \
   -p SecurePassword
@@ -202,12 +202,12 @@ expose on the host's port `1234` (udp):
 
 ```shell
 docker run -d --name udptlspipe -p 1234:8443/udp \
-  ghcr.io/ameshkov/udptlspipe \
+  ghcr.io/leninalive/udptlspipe \
   -d 2.3.4.5:8123 \
   -p SecurePassword
 ```
 
-[dockerregistry]: https://github.com/ameshkov/udptlspipe/pkgs/container/udptlspipe
+[dockerregistry]: https://github.com/leninalive/udptlspipe/pkgs/container/udptlspipe
 
 <a id="allcmdarguments"></a>
 
